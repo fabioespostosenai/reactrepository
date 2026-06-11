@@ -1,0 +1,22 @@
+.imagem{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.corpo{
+    padding: 15px;
+    text-align: center;
+}
